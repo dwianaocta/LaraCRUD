@@ -10,8 +10,8 @@
     </div>
     <div class="card-body">
         <p>{{$tanya->isi}} </p>
-
-        <span class="float-right text-muted">{{$tanya->tanggal_dibuat}}</span>
+        <span class="float-right text-muted">Diposting pada {{$tanya->tanggal_dibuat}}</span><br>
+        <span class="float-right text-muted">Diedit pada {{$tanya->tanggal_diperbarui}}</span>
     </div>
     @endforeach
     

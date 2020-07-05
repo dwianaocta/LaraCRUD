@@ -15,7 +15,6 @@ class JawabanModel {
         $items3 = DB::table('jawaban')
             ->where('pertanyaan_id', '=', $idx)
             ->get();
-        //dd($items3);
 
         return [$items2, $items3];
     }
